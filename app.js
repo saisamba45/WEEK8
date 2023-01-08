@@ -1,6 +1,5 @@
 const express = require("express");
 const path = require("path");
-const app = express();
 const { Todo } = require("./models");
 const bodyParser = require("body-parser");
 const todo = require("./models/todo");
